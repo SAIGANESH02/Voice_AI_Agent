@@ -328,18 +328,4 @@ Potential improvements:
 - Call quality scoring
 - Automated follow-up scheduling
 
-## 📝 License
-
-[Specify your license here]
-
-## 👥 Contributors
-
-[Add contributor information]
-
-## 📞 Support
-
-For issues and questions, please [create an issue](link-to-issues) or contact the development team.
-
----
-
 **Built with ❤️ using Azure Functions, Twilio, OpenAI GPT-4, and MySQL**
