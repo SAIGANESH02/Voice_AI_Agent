@@ -1,0 +1,42 @@
+{
+    "id": "/subscriptions/ada1ac57-f8b3-4bac-a3f2-c2c81d60670c/resourceGroups/VoiceAIAgent3_group-8055/providers/Microsoft.Web/sites/VoiceAIAgent3/functions/http_trigger1",
+    "name": "VoiceAIAgent3/http_trigger1",
+    "type": "Microsoft.Web/sites/functions",
+    "location": "East US",
+    "properties": {
+        "name": "http_trigger1",
+        "function_app_id": null,
+        "script_root_path_href": null,
+        "script_href": "https://voiceaiagent3.azurewebsites.net/admin/vfs/home/site/wwwroot/function_app.py",
+        "config_href": null,
+        "test_data_href": "https://voiceaiagent3.azurewebsites.net/admin/vfs/tmp/FunctionsData/http_trigger1.dat",
+        "secrets_file_href": null,
+        "href": "https://voiceaiagent3.azurewebsites.net/admin/functions/http_trigger1",
+        "config": {
+            "name": "http_trigger1",
+            "entryPoint": "http_trigger1",
+            "scriptFile": "function_app.py",
+            "language": "python",
+            "functionDirectory": "/home/site/wwwroot",
+            "bindings": [
+                {
+                    "direction": "IN",
+                    "type": "httpTrigger",
+                    "name": "req",
+                    "authLevel": "FUNCTION",
+                    "route": "http_trigger1"
+                },
+                {
+                    "direction": "OUT",
+                    "type": "http",
+                    "name": "$return"
+                }
+            ]
+        },
+        "files": null,
+        "test_data": "",
+        "invoke_url_template": "https://voiceaiagent3.azurewebsites.net/api/http_trigger1",
+        "language": "python",
+        "isDisabled": false
+    }
+}
